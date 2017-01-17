@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<GenericConnectorDescriptor
+    browsingType="cloud"
+    requireConnectionForBrowse="false">
+    <description>GitHub follower example connector</description>
+    <field id="url" label="URL" type="string">
+        <helpText>A URL for getting help</helpText>
+        <defaultValue>https://sookocheff.com</defaultValue>
+    </field>
+    <operation types="GET"/>
+</GenericConnectorDescriptor>
